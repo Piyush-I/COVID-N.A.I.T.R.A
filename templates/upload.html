@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>N.A.I.T.R.A</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 360px;
+  background: #ccc;
+  padding: 20px;
+}
+
+table {
+border-spacing: 5px;
+border: 1px solid #dddddd;
+}
+
+td,tr {
+border: 1px solid #dddddd;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 360px;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>N.A.I.T.R.A</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+
+
+    </ul>
+  </nav>
+
+  <article>
+   <h2>Complaint Page</h2>
+	<form id="upload-form" action="{{ "https://d978610a5afb.ngrok.io/image" }}" method="POST" enctype="multipart/form-data">
+	<table style="width:20%">
+  <tr>
+    <td><label>Name : </label></td>
+    <td><input type="text" name="ad" required><br></td>
+  </tr>
+
+  <tr>
+    <td><label>Phone No. : </label></td>
+    <td><input type="text" name="mo" required><br></td>
+  </tr>
+
+  <tr>
+    <td><label>Nature of Complaint : </label></td>
+    <td><select name="nature" id="nature" required>
+	<option disabled selected value> -- select an option -- </option>
+  <option value="mass">Mass Gathering</option>
+  <option value="mask">Mask Voilation</option>
+  <option value="illegal">Illegal Activities</option>
+  </select><br></td>
+  </tr>
+
+
+  <tr>
+    <td><input type="file" name="image" accept="image/*," capture multiple required><br></td>
+  </tr>
+
+<tr>
+    <td><input type="submit" value="upload"></td>
+  </tr>
+</table>
+
+
+
+	</form>
+  </article>
+</section>
+
+<footer>
+  <p>Now Avoid Infection Through our Reporting Application</p>
+</footer>
+
+</body>
+</html>

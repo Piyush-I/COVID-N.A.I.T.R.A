@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04cf2d629bbe4f2ab4d2f4210b79e9c4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_04cf2d629bbe4f2ab4d2f4210b79e9c4" ></div>
+        
+</body>
+<script>    
+    
+            var map_04cf2d629bbe4f2ab4d2f4210b79e9c4 = L.map(
+                "map_04cf2d629bbe4f2ab4d2f4210b79e9c4",
+                {
+                    center: [18.51957, 73.85535],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dfb7676606ec4e92b844164969fa35f0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_04cf2d629bbe4f2ab4d2f4210b79e9c4);
+        
+    
+            var marker_cluster_a30d65a3283b4409855c37a17ecdcb5d = L.markerClusterGroup(
+                {}
+            );
+            map_04cf2d629bbe4f2ab4d2f4210b79e9c4.addLayer(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+            var circle_5727647a47b94aa0919c462708666ce2 = L.circle(
+                [18.527535, 73.862679],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_b926e4cd7a544f92a6e9acd9337db545 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1c2eb7fe61f4c68ba017bf6d102c6a1 = $(`<div id="html_d1c2eb7fe61f4c68ba017bf6d102c6a1" style="width: 100.0%; height: 100.0%;">Mangalwar Peth, Juna Bazar No.of patients:9</div>`)[0];
+            popup_b926e4cd7a544f92a6e9acd9337db545.setContent(html_d1c2eb7fe61f4c68ba017bf6d102c6a1);
+        
+
+        circle_5727647a47b94aa0919c462708666ce2.bindPopup(popup_b926e4cd7a544f92a6e9acd9337db545)
+        ;
+
+        
+    
+    
+            var circle_a51ccd8a420241faa538d853b5a42afd = L.circle(
+                [18.497877, 73.847481],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_f1610ae4251d436eb45cdc60add9d708 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c475d6191190401caf264ec86bbd0283 = $(`<div id="html_c475d6191190401caf264ec86bbd0283" style="width: 100.0%; height: 100.0%;">Parvati Darshan No.of patients:15</div>`)[0];
+            popup_f1610ae4251d436eb45cdc60add9d708.setContent(html_c475d6191190401caf264ec86bbd0283);
+        
+
+        circle_a51ccd8a420241faa538d853b5a42afd.bindPopup(popup_f1610ae4251d436eb45cdc60add9d708)
+        ;
+
+        
+    
+    
+            var circle_c6edcafb8f824073a5170cfc2a9f5b0d = L.circle(
+                [18.499026, 73.850282],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_12076332dadf4283ba2032bd451741dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26412bd4e7454376861849a1072bae7f = $(`<div id="html_26412bd4e7454376861849a1072bae7f" style="width: 100.0%; height: 100.0%;">Parvati Dandekar Pul No.of patients:5</div>`)[0];
+            popup_12076332dadf4283ba2032bd451741dc.setContent(html_26412bd4e7454376861849a1072bae7f);
+        
+
+        circle_c6edcafb8f824073a5170cfc2a9f5b0d.bindPopup(popup_12076332dadf4283ba2032bd451741dc)
+        ;
+
+        
+    
+    
+            var circle_6c317a2838404cf7a2fa69e5242d6925 = L.circle(
+                [18.498569, 73.841131],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_e0e5e1e317ae4ae88a0ebfa1bc54e028 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_606a9fb64517499c8bc4c6059a39cd58 = $(`<div id="html_606a9fb64517499c8bc4c6059a39cd58" style="width: 100.0%; height: 100.0%;">Parvati Dattawadi No.of patients:6</div>`)[0];
+            popup_e0e5e1e317ae4ae88a0ebfa1bc54e028.setContent(html_606a9fb64517499c8bc4c6059a39cd58);
+        
+
+        circle_6c317a2838404cf7a2fa69e5242d6925.bindPopup(popup_e0e5e1e317ae4ae88a0ebfa1bc54e028)
+        ;
+
+        
+    
+    
+            var circle_28d8ab2d567a4f999324aa005af2955d = L.circle(
+                [18.502874, 73.85032],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_4ee3aaa0f2084f5e873df48d95111db7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14334ed3b0d94184bb9ddcf81379765c = $(`<div id="html_14334ed3b0d94184bb9ddcf81379765c" style="width: 100.0%; height: 100.0%;">Neelayam Theatres No.of patients:6</div>`)[0];
+            popup_4ee3aaa0f2084f5e873df48d95111db7.setContent(html_14334ed3b0d94184bb9ddcf81379765c);
+        
+
+        circle_28d8ab2d567a4f999324aa005af2955d.bindPopup(popup_4ee3aaa0f2084f5e873df48d95111db7)
+        ;
+
+        
+    
+    
+            var circle_977a775c567f4a63adb7efb89bc210e5 = L.circle(
+                [18.510285, 73.870658],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_46d103dd3f864139b2bd6c9499ddc837 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c26b80a1d3746028478f341c73d2aca = $(`<div id="html_1c26b80a1d3746028478f341c73d2aca" style="width: 100.0%; height: 100.0%;">Bhavani peth Nana Peth No.of patients:2</div>`)[0];
+            popup_46d103dd3f864139b2bd6c9499ddc837.setContent(html_1c26b80a1d3746028478f341c73d2aca);
+        
+
+        circle_977a775c567f4a63adb7efb89bc210e5.bindPopup(popup_46d103dd3f864139b2bd6c9499ddc837)
+        ;
+
+        
+    
+    
+            var circle_425c888e2ad74d85a694f9ddac92598b = L.circle(
+                [18.46464, 73.877521],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_e702bd9f5c864496848c4c6f4bc61b17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b9a2e0417424697910da6087ead0f4f = $(`<div id="html_1b9a2e0417424697910da6087ead0f4f" style="width: 100.0%; height: 100.0%;">Kondhwa Kakde wasti No.of patients:12</div>`)[0];
+            popup_e702bd9f5c864496848c4c6f4bc61b17.setContent(html_1b9a2e0417424697910da6087ead0f4f);
+        
+
+        circle_425c888e2ad74d85a694f9ddac92598b.bindPopup(popup_e702bd9f5c864496848c4c6f4bc61b17)
+        ;
+
+        
+    
+    
+            var circle_cc6075a6d66a449ba6e76255f5edc54c = L.circle(
+                [18.459703, 73.896996],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_c3b5d63b5f95422492cdcb9235e4206a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76c227025f16450f9e5b8015ef0b0399 = $(`<div id="html_76c227025f16450f9e5b8015ef0b0399" style="width: 100.0%; height: 100.0%;">Notting Hill Kondwa Budruk No.of patients:10</div>`)[0];
+            popup_c3b5d63b5f95422492cdcb9235e4206a.setContent(html_76c227025f16450f9e5b8015ef0b0399);
+        
+
+        circle_cc6075a6d66a449ba6e76255f5edc54c.bindPopup(popup_c3b5d63b5f95422492cdcb9235e4206a)
+        ;
+
+        
+    
+    
+            var circle_2d46963b909e41eba5c2753ac5d27784 = L.circle(
+                [18.45801, 73.912376],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_8cd08d8cfe184ab490fb6fe221808c6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53dceabe37fb42b397bd0db69e4e640d = $(`<div id="html_53dceabe37fb42b397bd0db69e4e640d" style="width: 100.0%; height: 100.0%;">Holw Vasti Undri No.of patients:12</div>`)[0];
+            popup_8cd08d8cfe184ab490fb6fe221808c6c.setContent(html_53dceabe37fb42b397bd0db69e4e640d);
+        
+
+        circle_2d46963b909e41eba5c2753ac5d27784.bindPopup(popup_8cd08d8cfe184ab490fb6fe221808c6c)
+        ;
+
+        
+    
+    
+            var circle_775488d7513d4c0c8f264c66fd56650f = L.circle(
+                [18.455818, 73.869454],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_1707bcc1d1ea4f41850a77b04e62cb01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cd5c6508669417f8b67a20342199542 = $(`<div id="html_8cd5c6508669417f8b67a20342199542" style="width: 100.0%; height: 100.0%;">Amba Mata Mandir Parisar No.of patients:11</div>`)[0];
+            popup_1707bcc1d1ea4f41850a77b04e62cb01.setContent(html_8cd5c6508669417f8b67a20342199542);
+        
+
+        circle_775488d7513d4c0c8f264c66fd56650f.bindPopup(popup_1707bcc1d1ea4f41850a77b04e62cb01)
+        ;
+
+        
+    
+    
+            var circle_be3683f43583498c8be4f9d55abe760c = L.circle(
+                [18.501838, 73.805015],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_5fcbbdd364c440f581bce205ad7ec82f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30ab253262fa4bda92f5a4e7ed52e0cc = $(`<div id="html_30ab253262fa4bda92f5a4e7ed52e0cc" style="width: 100.0%; height: 100.0%;">Badhai Sweet Kothrud No.of patients:12</div>`)[0];
+            popup_5fcbbdd364c440f581bce205ad7ec82f.setContent(html_30ab253262fa4bda92f5a4e7ed52e0cc);
+        
+
+        circle_be3683f43583498c8be4f9d55abe760c.bindPopup(popup_5fcbbdd364c440f581bce205ad7ec82f)
+        ;
+
+        
+    
+    
+            var circle_8164011f9cfe488d9fda1c0cf711725e = L.circle(
+                [18.506949, 73.798822],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_fe4cd358b1b543e792e99e3ccf8d4816 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7a151470def42abafa28382c96ace8a = $(`<div id="html_d7a151470def42abafa28382c96ace8a" style="width: 100.0%; height: 100.0%;">Chandra Gupt Society Kothrud No.of patients:15</div>`)[0];
+            popup_fe4cd358b1b543e792e99e3ccf8d4816.setContent(html_d7a151470def42abafa28382c96ace8a);
+        
+
+        circle_8164011f9cfe488d9fda1c0cf711725e.bindPopup(popup_fe4cd358b1b543e792e99e3ccf8d4816)
+        ;
+
+        
+    
+    
+            var circle_9ca999eb63f0411fb38622586fe3cf00 = L.circle(
+                [18.529644, 73.873911],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_aa8054c213284852831a7c7ac8022908 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7498a6196f0342fdb8aeb0f5d3ab4475 = $(`<div id="html_7498a6196f0342fdb8aeb0f5d3ab4475" style="width: 100.0%; height: 100.0%;">Pune Station No.of patients:10</div>`)[0];
+            popup_aa8054c213284852831a7c7ac8022908.setContent(html_7498a6196f0342fdb8aeb0f5d3ab4475);
+        
+
+        circle_9ca999eb63f0411fb38622586fe3cf00.bindPopup(popup_aa8054c213284852831a7c7ac8022908)
+        ;
+
+        
+    
+    
+            var circle_537b85e9e87d45a7998ee4b7f35fb3a0 = L.circle(
+                [18.532229, 73.851754],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_6725c3e651374682aae1c5f8bcbdd62d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_826482b88b0f474886d06891ed73f468 = $(`<div id="html_826482b88b0f474886d06891ed73f468" style="width: 100.0%; height: 100.0%;">Shivaji Nagar Station No.of patients:1</div>`)[0];
+            popup_6725c3e651374682aae1c5f8bcbdd62d.setContent(html_826482b88b0f474886d06891ed73f468);
+        
+
+        circle_537b85e9e87d45a7998ee4b7f35fb3a0.bindPopup(popup_6725c3e651374682aae1c5f8bcbdd62d)
+        ;
+
+        
+    
+    
+            var circle_e510647e9bcb47168ff346796588e386 = L.circle(
+                [18.534965, 73.876822],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_aa3175313db843a193b9d6f1e3dd8398 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c928d834ef024795aff758b09dbff31c = $(`<div id="html_c928d834ef024795aff758b09dbff31c" style="width: 100.0%; height: 100.0%;">Dhole Patil Road No.of patients:8</div>`)[0];
+            popup_aa3175313db843a193b9d6f1e3dd8398.setContent(html_c928d834ef024795aff758b09dbff31c);
+        
+
+        circle_e510647e9bcb47168ff346796588e386.bindPopup(popup_aa3175313db843a193b9d6f1e3dd8398)
+        ;
+
+        
+    
+    
+            var circle_ac61d7fdf73845518cab462c25db17ce = L.circle(
+                [18.474964, 73.850524],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_c1a330f2c0214ffe8825c37022569c27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61097935cc864b5ab4bc086f20b586a1 = $(`<div id="html_61097935cc864b5ab4bc086f20b586a1" style="width: 100.0%; height: 100.0%;">Parvati Taljai Vasti No.of patients:2</div>`)[0];
+            popup_c1a330f2c0214ffe8825c37022569c27.setContent(html_61097935cc864b5ab4bc086f20b586a1);
+        
+
+        circle_ac61d7fdf73845518cab462c25db17ce.bindPopup(popup_c1a330f2c0214ffe8825c37022569c27)
+        ;
+
+        
+    
+    
+            var circle_3d1e1dafc8754ea8a03e8022b8a847d4 = L.circle(
+                [18.464182, 73.858359],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_bc5b2a57229d4e8ca9f01daea2b389e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32ef9be7d4da496f90288aa637c0a45b = $(`<div id="html_32ef9be7d4da496f90288aa637c0a45b" style="width: 100.0%; height: 100.0%;">Balaji Nagar Dhankavdi  No.of patients:9</div>`)[0];
+            popup_bc5b2a57229d4e8ca9f01daea2b389e4.setContent(html_32ef9be7d4da496f90288aa637c0a45b);
+        
+
+        circle_3d1e1dafc8754ea8a03e8022b8a847d4.bindPopup(popup_bc5b2a57229d4e8ca9f01daea2b389e4)
+        ;
+
+        
+    
+    
+            var circle_3d9e1d9941bf463ea9341fff5ff3fb2b = L.circle(
+                [18.488854, 73.854051],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_9a3d607e86e3438e9baf1eb78ed45a29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7d95511811142dbab166a94e40140af = $(`<div id="html_f7d95511811142dbab166a94e40140af" style="width: 100.0%; height: 100.0%;">Parvati Shiv Darshan No.of patients:1</div>`)[0];
+            popup_9a3d607e86e3438e9baf1eb78ed45a29.setContent(html_f7d95511811142dbab166a94e40140af);
+        
+
+        circle_3d9e1d9941bf463ea9341fff5ff3fb2b.bindPopup(popup_9a3d607e86e3438e9baf1eb78ed45a29)
+        ;
+
+        
+    
+    
+            var circle_d761b95c480142b59948bae07bef966b = L.circle(
+                [18.46542, 73.854545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_284de6bc27054e6a9808e8642c7f7f94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22e4d45016de4e1488960e40988f2921 = $(`<div id="html_22e4d45016de4e1488960e40988f2921" style="width: 100.0%; height: 100.0%;">Dhankawdi No.of patients:8</div>`)[0];
+            popup_284de6bc27054e6a9808e8642c7f7f94.setContent(html_22e4d45016de4e1488960e40988f2921);
+        
+
+        circle_d761b95c480142b59948bae07bef966b.bindPopup(popup_284de6bc27054e6a9808e8642c7f7f94)
+        ;
+
+        
+    
+    
+            var circle_cd68fde7071f47b295d5f093ebe06e69 = L.circle(
+                [18.445936, 73.848932],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_81555ccdcb0440398d92f9fdf34cd194 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f51d5e00cf204f73b25551f291da1311 = $(`<div id="html_f51d5e00cf204f73b25551f291da1311" style="width: 100.0%; height: 100.0%;">Ambegao khud No.of patients:5</div>`)[0];
+            popup_81555ccdcb0440398d92f9fdf34cd194.setContent(html_f51d5e00cf204f73b25551f291da1311);
+        
+
+        circle_cd68fde7071f47b295d5f093ebe06e69.bindPopup(popup_81555ccdcb0440398d92f9fdf34cd194)
+        ;
+
+        
+    
+    
+            var circle_4622086111aa40da857e5767b6996c66 = L.circle(
+                [18.551292, 73.92095],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_1744c30388a8428dbe1be92697d3e0aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_438c290099224e79a8e52cf0f1368110 = $(`<div id="html_438c290099224e79a8e52cf0f1368110" style="width: 100.0%; height: 100.0%;">Wadgaon Sheri Tempo Chowk No.of patients:14</div>`)[0];
+            popup_1744c30388a8428dbe1be92697d3e0aa.setContent(html_438c290099224e79a8e52cf0f1368110);
+        
+
+        circle_4622086111aa40da857e5767b6996c66.bindPopup(popup_1744c30388a8428dbe1be92697d3e0aa)
+        ;
+
+        
+    
+    
+            var circle_09a5b6979a704e4da99a7fc7c25d5d06 = L.circle(
+                [18.557208, 73.925075],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_7063b92b518e459b8ab5c484531ecbd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64a23d6d8d9b432aa5b3fafc408b7888 = $(`<div id="html_64a23d6d8d9b432aa5b3fafc408b7888" style="width: 100.0%; height: 100.0%;">Ganesh Nagar Wadgaon Sheri No.of patients:2</div>`)[0];
+            popup_7063b92b518e459b8ab5c484531ecbd3.setContent(html_64a23d6d8d9b432aa5b3fafc408b7888);
+        
+
+        circle_09a5b6979a704e4da99a7fc7c25d5d06.bindPopup(popup_7063b92b518e459b8ab5c484531ecbd3)
+        ;
+
+        
+    
+    
+            var circle_c7fdab62e1034df590dce04afdcf5037 = L.circle(
+                [18.588198, 73.90584],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_e2572aaea4674060adbea74a25164dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36606b344b7a48ebbe507bfb73c9f36e = $(`<div id="html_36606b344b7a48ebbe507bfb73c9f36e" style="width: 100.0%; height: 100.0%;">Lohgaon Kalwadawasti No.of patients:7</div>`)[0];
+            popup_e2572aaea4674060adbea74a25164dc3.setContent(html_36606b344b7a48ebbe507bfb73c9f36e);
+        
+
+        circle_c7fdab62e1034df590dce04afdcf5037.bindPopup(popup_e2572aaea4674060adbea74a25164dc3)
+        ;
+
+        
+    
+    
+            var circle_76cdceeca0464dcba4098215f6bb60d5 = L.circle(
+                [18.483925, 73.86614],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_44526d8d30e1430c8f33c7990fd775ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6011aa40c211419893b8a11948f61f69 = $(`<div id="html_6011aa40c211419893b8a11948f61f69" style="width: 100.0%; height: 100.0%;">Bibewadi Ambedkarnagar Markeytard No.of patients:13</div>`)[0];
+            popup_44526d8d30e1430c8f33c7990fd775ee.setContent(html_6011aa40c211419893b8a11948f61f69);
+        
+
+        circle_76cdceeca0464dcba4098215f6bb60d5.bindPopup(popup_44526d8d30e1430c8f33c7990fd775ee)
+        ;
+
+        
+    
+    
+            var circle_2d716acdb3c448538deb11fac611d231 = L.circle(
+                [18.487962, 73.870508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_7b46d81a9b4142d3bc6fabf9cd81462f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4119895498c4690b8c619d642264022 = $(`<div id="html_a4119895498c4690b8c619d642264022" style="width: 100.0%; height: 100.0%;">Gultekdi No.of patients:4</div>`)[0];
+            popup_7b46d81a9b4142d3bc6fabf9cd81462f.setContent(html_a4119895498c4690b8c619d642264022);
+        
+
+        circle_2d716acdb3c448538deb11fac611d231.bindPopup(popup_7b46d81a9b4142d3bc6fabf9cd81462f)
+        ;
+
+        
+    
+    
+            var circle_8c0384b5cdd546b6bffa9f503c67f1cc = L.circle(
+                [18.496708, 73.823336],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_c2a818485ded4d28b5011c79aff1e1a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a044f9eab214225ae324d7a84a4df55 = $(`<div id="html_9a044f9eab214225ae324d7a84a4df55" style="width: 100.0%; height: 100.0%;">Meenatai Thakrenagar No.of patients:3</div>`)[0];
+            popup_c2a818485ded4d28b5011c79aff1e1a3.setContent(html_9a044f9eab214225ae324d7a84a4df55);
+        
+
+        circle_8c0384b5cdd546b6bffa9f503c67f1cc.bindPopup(popup_c2a818485ded4d28b5011c79aff1e1a3)
+        ;
+
+        
+    
+    
+            var circle_f8e77b4fa12640fbb8faf97de0f27bb3 = L.circle(
+                [18.495763, 73.86936],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_190defe77db041c8ab50fabe9d927c2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca3f2270203e489da09547e25e11220e = $(`<div id="html_ca3f2270203e489da09547e25e11220e" style="width: 100.0%; height: 100.0%;">Dias plot No.of patients:12</div>`)[0];
+            popup_190defe77db041c8ab50fabe9d927c2c.setContent(html_ca3f2270203e489da09547e25e11220e);
+        
+
+        circle_f8e77b4fa12640fbb8faf97de0f27bb3.bindPopup(popup_190defe77db041c8ab50fabe9d927c2c)
+        ;
+
+        
+    
+    
+            var circle_c2bc2b08cf544d2ab6fc9420376e10d7 = L.circle(
+                [18.463823, 73.864787],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_0d7f9d3743f74ff9be2ac47d0ab651b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a79c52daf6c46d5a5bed1746181d825 = $(`<div id="html_0a79c52daf6c46d5a5bed1746181d825" style="width: 100.0%; height: 100.0%;">Bibewadi Upper Indranagar No.of patients:8</div>`)[0];
+            popup_0d7f9d3743f74ff9be2ac47d0ab651b8.setContent(html_0a79c52daf6c46d5a5bed1746181d825);
+        
+
+        circle_c2bc2b08cf544d2ab6fc9420376e10d7.bindPopup(popup_0d7f9d3743f74ff9be2ac47d0ab651b8)
+        ;
+
+        
+    
+    
+            var circle_42c0a9ea40a44789be97043805439367 = L.circle(
+                [18.482926, 73.860171],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_a2c06dcf214842928bf6bdba7209c001 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_915518fc45eb43ada4ded4c9965bb8cc = $(`<div id="html_915518fc45eb43ada4ded4c9965bb8cc" style="width: 100.0%; height: 100.0%;">Bibwewadi S.No. 670 No.of patients:13</div>`)[0];
+            popup_a2c06dcf214842928bf6bdba7209c001.setContent(html_915518fc45eb43ada4ded4c9965bb8cc);
+        
+
+        circle_42c0a9ea40a44789be97043805439367.bindPopup(popup_a2c06dcf214842928bf6bdba7209c001)
+        ;
+
+        
+    
+    
+            var circle_4487c676c466456781abba90c92f0090 = L.circle(
+                [18.492417, 73.87292],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_a0089570b446459190fcd857c5632c1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_148ff3e2fe4e429789328c6061e412e0 = $(`<div id="html_148ff3e2fe4e429789328c6061e412e0" style="width: 100.0%; height: 100.0%;">Seventh Day Adventist Church, Pune No.of patients:7</div>`)[0];
+            popup_a0089570b446459190fcd857c5632c1c.setContent(html_148ff3e2fe4e429789328c6061e412e0);
+        
+
+        circle_4487c676c466456781abba90c92f0090.bindPopup(popup_a0089570b446459190fcd857c5632c1c)
+        ;
+
+        
+    
+    
+            var circle_966689ec6dfd47a381d7d6ea4270d4fa = L.circle(
+                [18.484316, 73.859243],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_5ff5685c66a04aa8a87b5b66815b0db1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e63898b51ac4b6ca5139dd8387c91ec = $(`<div id="html_8e63898b51ac4b6ca5139dd8387c91ec" style="width: 100.0%; height: 100.0%;">Gultekdi Premnagar No.of patients:11</div>`)[0];
+            popup_5ff5685c66a04aa8a87b5b66815b0db1.setContent(html_8e63898b51ac4b6ca5139dd8387c91ec);
+        
+
+        circle_966689ec6dfd47a381d7d6ea4270d4fa.bindPopup(popup_5ff5685c66a04aa8a87b5b66815b0db1)
+        ;
+
+        
+    
+    
+            var circle_6e77f3f719a74759a9a11789fdedbf47 = L.circle(
+                [18.549684, 73.890026],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_e4b939323c5a42e79db2c806037098fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51bc7354db0a4cc6955ced6e6d4548bc = $(`<div id="html_51bc7354db0a4cc6955ced6e6d4548bc" style="width: 100.0%; height: 100.0%;">Yerwad Gandhi Nagar No.of patients:9</div>`)[0];
+            popup_e4b939323c5a42e79db2c806037098fb.setContent(html_51bc7354db0a4cc6955ced6e6d4548bc);
+        
+
+        circle_6e77f3f719a74759a9a11789fdedbf47.bindPopup(popup_e4b939323c5a42e79db2c806037098fb)
+        ;
+
+        
+    
+    
+            var circle_6bdc69e38b6c49e1b516e536dee7b851 = L.circle(
+                [18.562947, 73.893554],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_cae7a38380df4f23a5e4eb297b35ec89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d8fa42e455a4421ba0474e269f7e23d = $(`<div id="html_4d8fa42e455a4421ba0474e269f7e23d" style="width: 100.0%; height: 100.0%;">Nagpur Chawl Yerwada No.of patients:7</div>`)[0];
+            popup_cae7a38380df4f23a5e4eb297b35ec89.setContent(html_4d8fa42e455a4421ba0474e269f7e23d);
+        
+
+        circle_6bdc69e38b6c49e1b516e536dee7b851.bindPopup(popup_cae7a38380df4f23a5e4eb297b35ec89)
+        ;
+
+        
+    
+    
+            var circle_0fd6328ba7824fe49df8e66c9e66259f = L.circle(
+                [18.558867, 73.874937],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_5f5572bedb3b4c36babe1c36c334bfb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b92ac5ce35b40dda563977575bcdb20 = $(`<div id="html_6b92ac5ce35b40dda563977575bcdb20" style="width: 100.0%; height: 100.0%;">Yerwada Adarsh Nagar No.of patients:10</div>`)[0];
+            popup_5f5572bedb3b4c36babe1c36c334bfb4.setContent(html_6b92ac5ce35b40dda563977575bcdb20);
+        
+
+        circle_0fd6328ba7824fe49df8e66c9e66259f.bindPopup(popup_5f5572bedb3b4c36babe1c36c334bfb4)
+        ;
+
+        
+    
+    
+            var circle_75e90366e44347da89859aa91b503468 = L.circle(
+                [18.560746, 73.875137],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_a224fd9e91f340af908a3c488d32f532 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_321a3ca6fc3a41348e9abc2c6bba068f = $(`<div id="html_321a3ca6fc3a41348e9abc2c6bba068f" style="width: 100.0%; height: 100.0%;">Yerwada Phule Nagar No.of patients:4</div>`)[0];
+            popup_a224fd9e91f340af908a3c488d32f532.setContent(html_321a3ca6fc3a41348e9abc2c6bba068f);
+        
+
+        circle_75e90366e44347da89859aa91b503468.bindPopup(popup_a224fd9e91f340af908a3c488d32f532)
+        ;
+
+        
+    
+    
+            var circle_78a95337151b46b2929e70d308c4a293 = L.circle(
+                [18.545534, 73.888687],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_67a6327c8bbc43baa325ea47fa7b8565 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb608a7cc2ed452ab2e89d89552b3285 = $(`<div id="html_cb608a7cc2ed452ab2e89d89552b3285" style="width: 100.0%; height: 100.0%;">Yerwada Dhanori ward No.of patients:15</div>`)[0];
+            popup_67a6327c8bbc43baa325ea47fa7b8565.setContent(html_cb608a7cc2ed452ab2e89d89552b3285);
+        
+
+        circle_78a95337151b46b2929e70d308c4a293.bindPopup(popup_67a6327c8bbc43baa325ea47fa7b8565)
+        ;
+
+        
+    
+    
+            var circle_f762370504fd420c871912c54b711564 = L.circle(
+                [18.502217, 73.918287],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_c5b568941c9041808437a038a2cb9aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96a2da61453c4ed4870a8377c954aec9 = $(`<div id="html_96a2da61453c4ed4870a8377c954aec9" style="width: 100.0%; height: 100.0%;">Hadapsar ramnagar No.of patients:4</div>`)[0];
+            popup_c5b568941c9041808437a038a2cb9aa0.setContent(html_96a2da61453c4ed4870a8377c954aec9);
+        
+
+        circle_f762370504fd420c871912c54b711564.bindPopup(popup_c5b568941c9041808437a038a2cb9aa0)
+        ;
+
+        
+    
+    
+            var circle_858d423811934eb6a4ea19a7f8e72027 = L.circle(
+                [18.504014, 73.916124],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_1af1d560834945a7a28b5e33d9816fa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd45bfc8b41b407a8493603a70e28c71 = $(`<div id="html_bd45bfc8b41b407a8493603a70e28c71" style="width: 100.0%; height: 100.0%;">Hadapsar ramtekdi No.of patients:15</div>`)[0];
+            popup_1af1d560834945a7a28b5e33d9816fa8.setContent(html_bd45bfc8b41b407a8493603a70e28c71);
+        
+
+        circle_858d423811934eb6a4ea19a7f8e72027.bindPopup(popup_1af1d560834945a7a28b5e33d9816fa8)
+        ;
+
+        
+    
+    
+            var circle_e8d876d43909433db719b32543d5cf89 = L.circle(
+                [18.502978, 73.920548],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_50e3a92695a3470b931b13b6c8d7ef68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_052853abd48e4776acce96e1310fc973 = $(`<div id="html_052853abd48e4776acce96e1310fc973" style="width: 100.0%; height: 100.0%;">Hadapsar Vaiduwadi No.of patients:3</div>`)[0];
+            popup_50e3a92695a3470b931b13b6c8d7ef68.setContent(html_052853abd48e4776acce96e1310fc973);
+        
+
+        circle_e8d876d43909433db719b32543d5cf89.bindPopup(popup_50e3a92695a3470b931b13b6c8d7ef68)
+        ;
+
+        
+    
+    
+            var circle_8f3f68fa3eca49c496ae61d0d1987897 = L.circle(
+                [18.4967, 73.9417],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_f94b4c43108c41c198a9a521aa3a9983 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18131b5689b34b608a21909a1cc47245 = $(`<div id="html_18131b5689b34b608a21909a1cc47245" style="width: 100.0%; height: 100.0%;">Hadapsar Handewadi No.of patients:6</div>`)[0];
+            popup_f94b4c43108c41c198a9a521aa3a9983.setContent(html_18131b5689b34b608a21909a1cc47245);
+        
+
+        circle_8f3f68fa3eca49c496ae61d0d1987897.bindPopup(popup_f94b4c43108c41c198a9a521aa3a9983)
+        ;
+
+        
+    
+    
+            var circle_b59785c1212f4f4f89983599add5d73e = L.circle(
+                [18.496668, 73.941666],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_6444c1bed1f746d4b249ef249201963a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd9bd590d7cf43b5be6feeb2bae2e1b6 = $(`<div id="html_cd9bd590d7cf43b5be6feeb2bae2e1b6" style="width: 100.0%; height: 100.0%;">Hadapsar Malwadi No.of patients:3</div>`)[0];
+            popup_6444c1bed1f746d4b249ef249201963a.setContent(html_cd9bd590d7cf43b5be6feeb2bae2e1b6);
+        
+
+        circle_b59785c1212f4f4f89983599add5d73e.bindPopup(popup_6444c1bed1f746d4b249ef249201963a)
+        ;
+
+        
+    
+    
+            var circle_13c949d2713d42f7949fd87428bbe17a = L.circle(
+                [18.5007, 73.9385],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_74045eb6d4b3425d86f9223fbb002337 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27512aef32dd42d28780ae286b92c135 = $(`<div id="html_27512aef32dd42d28780ae286b92c135" style="width: 100.0%; height: 100.0%;">Hadapsar Satavwadi No.of patients:5</div>`)[0];
+            popup_74045eb6d4b3425d86f9223fbb002337.setContent(html_27512aef32dd42d28780ae286b92c135);
+        
+
+        circle_13c949d2713d42f7949fd87428bbe17a.bindPopup(popup_74045eb6d4b3425d86f9223fbb002337)
+        ;
+
+        
+    
+    
+            var circle_d3fa9e025d614ab8af03882e2da2de47 = L.circle(
+                [18.491786, 73.943881],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_a53b4457fce4427f8a83c8d96dfa64f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bd21dc95b254cd8ac648297c570eafe = $(`<div id="html_8bd21dc95b254cd8ac648297c570eafe" style="width: 100.0%; height: 100.0%;">Hadapsar Vetanagar No.of patients:6</div>`)[0];
+            popup_a53b4457fce4427f8a83c8d96dfa64f5.setContent(html_8bd21dc95b254cd8ac648297c570eafe);
+        
+
+        circle_d3fa9e025d614ab8af03882e2da2de47.bindPopup(popup_a53b4457fce4427f8a83c8d96dfa64f5)
+        ;
+
+        
+    
+    
+            var circle_768ab414b9424ea194e520bc8c7ac346 = L.circle(
+                [18.507008, 73.954205],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_f9e770ebba3f499bad9a1ce9d4acc29d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9776c9895bb0400c9195a8c894a78b48 = $(`<div id="html_9776c9895bb0400c9195a8c894a78b48" style="width: 100.0%; height: 100.0%;">Hadapsar Adarsh Colony No.of patients:4</div>`)[0];
+            popup_f9e770ebba3f499bad9a1ce9d4acc29d.setContent(html_9776c9895bb0400c9195a8c894a78b48);
+        
+
+        circle_768ab414b9424ea194e520bc8c7ac346.bindPopup(popup_f9e770ebba3f499bad9a1ce9d4acc29d)
+        ;
+
+        
+    
+    
+            var circle_06872f70ffd4406e9991276a38dd9b82 = L.circle(
+                [18.486243, 73.934437],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_8f9ebf145b604996902eb77df0629d6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee6d3d1b6d564d90beb725834257c531 = $(`<div id="html_ee6d3d1b6d564d90beb725834257c531" style="width: 100.0%; height: 100.0%;">Hadapsar Chintamaninagar No.of patients:3</div>`)[0];
+            popup_8f9ebf145b604996902eb77df0629d6a.setContent(html_ee6d3d1b6d564d90beb725834257c531);
+        
+
+        circle_06872f70ffd4406e9991276a38dd9b82.bindPopup(popup_8f9ebf145b604996902eb77df0629d6a)
+        ;
+
+        
+    
+    
+            var circle_224f44604a174629bcf0a33bfbfd818c = L.circle(
+                [18.522675, 73.851439],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_e410237fb9ee4db9a8b89a04feaf0892 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88a7593e1294469e880454f7f11bb57a = $(`<div id="html_88a7593e1294469e880454f7f11bb57a" style="width: 100.0%; height: 100.0%;">Shivajinagar Congress Bhavan No.of patients:12</div>`)[0];
+            popup_e410237fb9ee4db9a8b89a04feaf0892.setContent(html_88a7593e1294469e880454f7f11bb57a);
+        
+
+        circle_224f44604a174629bcf0a33bfbfd818c.bindPopup(popup_e410237fb9ee4db9a8b89a04feaf0892)
+        ;
+
+        
+    
+    
+            var circle_0fb260755cc74b8b8eed61cb0f8f59ab = L.circle(
+                [18.534302, 73.851235],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_9876ced303a744da856daa09611d8cb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae0697a75c5641949325fc3b4ffa14d6 = $(`<div id="html_ae0697a75c5641949325fc3b4ffa14d6" style="width: 100.0%; height: 100.0%;">Shivajinagar Kamgaar ayukt No.of patients:5</div>`)[0];
+            popup_9876ced303a744da856daa09611d8cb4.setContent(html_ae0697a75c5641949325fc3b4ffa14d6);
+        
+
+        circle_0fb260755cc74b8b8eed61cb0f8f59ab.bindPopup(popup_9876ced303a744da856daa09611d8cb4)
+        ;
+
+        
+    
+    
+            var circle_350a92144d8b4973a12877c6ed8fe9c9 = L.circle(
+                [18.535065, 73.845999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_7b45434bffc94dfeb64021525065f045 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c812080657c4fd18d76c6fbde53a1d9 = $(`<div id="html_4c812080657c4fd18d76c6fbde53a1d9" style="width: 100.0%; height: 100.0%;">Shivajinagar Narveer Tanaji wadi  No.of patients:15</div>`)[0];
+            popup_7b45434bffc94dfeb64021525065f045.setContent(html_4c812080657c4fd18d76c6fbde53a1d9);
+        
+
+        circle_350a92144d8b4973a12877c6ed8fe9c9.bindPopup(popup_7b45434bffc94dfeb64021525065f045)
+        ;
+
+        
+    
+    
+            var circle_29ade01d523e48a5af909a5d43a87a63 = L.circle(
+                [18.531634, 73.850596],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_7e5e20de3e0f4b49a19f647357f67d3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b60ef9a1298e413898f256234e10c0c1 = $(`<div id="html_b60ef9a1298e413898f256234e10c0c1" style="width: 100.0%; height: 100.0%;">Shivaginagar Railway Line No.of patients:7</div>`)[0];
+            popup_7e5e20de3e0f4b49a19f647357f67d3e.setContent(html_b60ef9a1298e413898f256234e10c0c1);
+        
+
+        circle_29ade01d523e48a5af909a5d43a87a63.bindPopup(popup_7e5e20de3e0f4b49a19f647357f67d3e)
+        ;
+
+        
+    
+    
+            var circle_d1dbf4911f8442bc87c6224620d2c4f4 = L.circle(
+                [18.532678, 73.853845],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_d61ed14d80bb42aa8b5eb59bfff1e764 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7470fd8f70eb4fbabad89d7265f7f119 = $(`<div id="html_7470fd8f70eb4fbabad89d7265f7f119" style="width: 100.0%; height: 100.0%;">Shivajinagar Patil Estate No.of patients:5</div>`)[0];
+            popup_d61ed14d80bb42aa8b5eb59bfff1e764.setContent(html_7470fd8f70eb4fbabad89d7265f7f119);
+        
+
+        circle_d1dbf4911f8442bc87c6224620d2c4f4.bindPopup(popup_d61ed14d80bb42aa8b5eb59bfff1e764)
+        ;
+
+        
+    
+    
+            var circle_130b06e4ff4c4b08824df77ff43fc4b9 = L.circle(
+                [18.528089, 73.857341],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_af3931934f2b49618e15599f2c1277db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02839b8938b946698feabd0893cb8e95 = $(`<div id="html_02839b8938b946698feabd0893cb8e95" style="width: 100.0%; height: 100.0%;">Shivajinagar kamgaar  No.of patients:6</div>`)[0];
+            popup_af3931934f2b49618e15599f2c1277db.setContent(html_02839b8938b946698feabd0893cb8e95);
+        
+
+        circle_130b06e4ff4c4b08824df77ff43fc4b9.bindPopup(popup_af3931934f2b49618e15599f2c1277db)
+        ;
+
+        
+    
+    
+            var circle_7c8a5e1fc133489abe536f0e6c4f9e4b = L.circle(
+                [18.491619, 73.909652],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_9e516eb8c3b84daba3fb84cadbceac7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_416921b6d7cf4da48a8c1a3778480d6c = $(`<div id="html_416921b6d7cf4da48a8c1a3778480d6c" style="width: 100.0%; height: 100.0%;">Wanwadi srpf No.of patients:5</div>`)[0];
+            popup_9e516eb8c3b84daba3fb84cadbceac7f.setContent(html_416921b6d7cf4da48a8c1a3778480d6c);
+        
+
+        circle_7c8a5e1fc133489abe536f0e6c4f9e4b.bindPopup(popup_9e516eb8c3b84daba3fb84cadbceac7f)
+        ;
+
+        
+    
+    
+            var circle_aaa84d568a504a78b8005b5d06750b43 = L.circle(
+                [18.472466, 73.882562],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_5e60e8700e87401a8d700cc99f8623fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83ac74dd64e94387905d6fc46337842c = $(`<div id="html_83ac74dd64e94387905d6fc46337842c" style="width: 100.0%; height: 100.0%;">Kondhwa khurd mitha nagar No.of patients:7</div>`)[0];
+            popup_5e60e8700e87401a8d700cc99f8623fd.setContent(html_83ac74dd64e94387905d6fc46337842c);
+        
+
+        circle_aaa84d568a504a78b8005b5d06750b43.bindPopup(popup_5e60e8700e87401a8d700cc99f8623fd)
+        ;
+
+        
+    
+    
+            var circle_e1ae142754d64d90b1cc66036e2df3bd = L.circle(
+                [18.467999, 73.885986],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_2ed45b3986e8483baa273147c3591d96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_389a5ea1044a4cc38571884d24f59d5b = $(`<div id="html_389a5ea1044a4cc38571884d24f59d5b" style="width: 100.0%; height: 100.0%;">KOndhwa khurd tamboli bazaar No.of patients:2</div>`)[0];
+            popup_2ed45b3986e8483baa273147c3591d96.setContent(html_389a5ea1044a4cc38571884d24f59d5b);
+        
+
+        circle_e1ae142754d64d90b1cc66036e2df3bd.bindPopup(popup_2ed45b3986e8483baa273147c3591d96)
+        ;
+
+        
+    
+    
+            var circle_a9e525814aed41c7bfa9a24641a0c330 = L.circle(
+                [18.472062, 73.88454],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_88aca9082ad94ce1874b21c7af89e123 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baaa8eea69dd4ee0b23da39cf03078e8 = $(`<div id="html_baaa8eea69dd4ee0b23da39cf03078e8" style="width: 100.0%; height: 100.0%;">Kondhwa khurd bhagyaodaya nagar No.of patients:6</div>`)[0];
+            popup_88aca9082ad94ce1874b21c7af89e123.setContent(html_baaa8eea69dd4ee0b23da39cf03078e8);
+        
+
+        circle_a9e525814aed41c7bfa9a24641a0c330.bindPopup(popup_88aca9082ad94ce1874b21c7af89e123)
+        ;
+
+        
+    
+    
+            var circle_8239b943a78846c7821579c4949fb6aa = L.circle(
+                [18.474145, 73.887718],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_62939bd7e1b2466e8a2454457a116c14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fcab02aef4e4fca876fba2d5eea42ee = $(`<div id="html_1fcab02aef4e4fca876fba2d5eea42ee" style="width: 100.0%; height: 100.0%;">Kondhwa khurd shivneri Nagar No.of patients:6</div>`)[0];
+            popup_62939bd7e1b2466e8a2454457a116c14.setContent(html_1fcab02aef4e4fca876fba2d5eea42ee);
+        
+
+        circle_8239b943a78846c7821579c4949fb6aa.bindPopup(popup_62939bd7e1b2466e8a2454457a116c14)
+        ;
+
+        
+    
+    
+            var circle_11289a8d38584c00836ad8fe771765ba = L.circle(
+                [18.482152, 73.930401],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_c6ea1674442b49a982949be5d606f575 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ae84c71364a4bb98e7e539100c9e23a = $(`<div id="html_3ae84c71364a4bb98e7e539100c9e23a" style="width: 100.0%; height: 100.0%;">Hadapsar Gulam Ali NAgar No.of patients:4</div>`)[0];
+            popup_c6ea1674442b49a982949be5d606f575.setContent(html_3ae84c71364a4bb98e7e539100c9e23a);
+        
+
+        circle_11289a8d38584c00836ad8fe771765ba.bindPopup(popup_c6ea1674442b49a982949be5d606f575)
+        ;
+
+        
+    
+    
+            var circle_820c115276bf41a4b0dfb7ff8979fb53 = L.circle(
+                [18.496746, 73.94084],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#DE3737", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_17c82b07f9194dd1987c11f72c89e755 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4480be3529b74aa8b9e53f604743555a = $(`<div id="html_4480be3529b74aa8b9e53f604743555a" style="width: 100.0%; height: 100.0%;">Hadapsar sayyad nagar No.of patients:9</div>`)[0];
+            popup_17c82b07f9194dd1987c11f72c89e755.setContent(html_4480be3529b74aa8b9e53f604743555a);
+        
+
+        circle_820c115276bf41a4b0dfb7ff8979fb53.bindPopup(popup_17c82b07f9194dd1987c11f72c89e755)
+        ;
+
+        
+    
+    
+            var circle_149354fe8b614d118ce4cf5feb36e770 = L.circle(
+                [18.509486, 73.947303],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_ed7c55890b3f4c21bfeaeada11059bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53c5fcf7af34434f8278de129a6bd1e6 = $(`<div id="html_53c5fcf7af34434f8278de129a6bd1e6" style="width: 100.0%; height: 100.0%;">Hadapsar gowsavi vasti No.of patients:13</div>`)[0];
+            popup_ed7c55890b3f4c21bfeaeada11059bb0.setContent(html_53c5fcf7af34434f8278de129a6bd1e6);
+        
+
+        circle_149354fe8b614d118ce4cf5feb36e770.bindPopup(popup_ed7c55890b3f4c21bfeaeada11059bb0)
+        ;
+
+        
+    
+    
+            var circle_e63310a479bd45b58c835369d0eacb76 = L.circle(
+                [18.504249, 73.916359],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FDBEBE", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_df5da1b4b1a84cfbb9db02fe638fc22d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_255e5af17c874083b23b603d932f7390 = $(`<div id="html_255e5af17c874083b23b603d932f7390" style="width: 100.0%; height: 100.0%;">Hadapsar ramtekdi No.of patients:4</div>`)[0];
+            popup_df5da1b4b1a84cfbb9db02fe638fc22d.setContent(html_255e5af17c874083b23b603d932f7390);
+        
+
+        circle_e63310a479bd45b58c835369d0eacb76.bindPopup(popup_df5da1b4b1a84cfbb9db02fe638fc22d)
+        ;
+
+        
+    
+    
+            var circle_fc47cdfdc6cd4769aed561d5471e5d58 = L.circle(
+                [18.524043, 73.781517],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_71ee5b5252d34d82a8cd6d15deafe136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1442e17d12144829d3b1db18ace73bb = $(`<div id="html_b1442e17d12144829d3b1db18ace73bb" style="width: 100.0%; height: 100.0%;">Ramnagar No.of patients:15</div>`)[0];
+            popup_71ee5b5252d34d82a8cd6d15deafe136.setContent(html_b1442e17d12144829d3b1db18ace73bb);
+        
+
+        circle_fc47cdfdc6cd4769aed561d5471e5d58.bindPopup(popup_71ee5b5252d34d82a8cd6d15deafe136)
+        ;
+
+        
+    
+    
+            var circle_98925e1316314a678bd7f84edc634844 = L.circle(
+                [18.66092, 73.800135],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A0C0C", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_a30d65a3283b4409855c37a17ecdcb5d);
+        
+    
+        var popup_4b0f773b5618495c97f0cb5917d2989a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81ea989840c6484bba08f4c5c9209b8e = $(`<div id="html_81ea989840c6484bba08f4c5c9209b8e" style="width: 100.0%; height: 100.0%;">Sambhajinagar No.of patients:13</div>`)[0];
+            popup_4b0f773b5618495c97f0cb5917d2989a.setContent(html_81ea989840c6484bba08f4c5c9209b8e);
+        
+
+        circle_98925e1316314a678bd7f84edc634844.bindPopup(popup_4b0f773b5618495c97f0cb5917d2989a)
+        ;
+
+        
+    
+</script>
